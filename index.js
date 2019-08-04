@@ -3,7 +3,7 @@
 
 function lowerCaseDrivers(arr) {
   let newArr = arr.map(name => name.toLowerCase());
-    retrun newArr;
+    return newArr;
 }
 
 function nameToAttributes() {
