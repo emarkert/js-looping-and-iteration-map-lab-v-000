@@ -11,6 +11,7 @@ function nameToAttributes(arr) {
     return arr.map(function(e) {
       let name = e.split(" ")
         return {firstName: name[0], lastName: name[1]}
+      })
 }
 
 function attributesToPhrase() {
