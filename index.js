@@ -17,6 +17,6 @@ function nameToAttributes(arr) {
 //accept an array with an object, return a string for each pair saying "[name] is from [hometowm]"
 function attributesToPhrase(arr) {
   return arr.map(function(e) {
-    return `${e.name} is from ${e.home}.`
+    return `${e.name} is from ${e.hometown}.`
   } )
 }
