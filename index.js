@@ -8,8 +8,7 @@ function lowerCaseDrivers(arr) {
 
 //accept array, split names by space, assign names to a collection with firstName and lastName as keys as their values
 function nameToAttributes(arr) {
-  let newArr = arr.map(name => name.split(" "));
-    return newArr;
+  let newArr = arr.map(name => (name.split(" ")) firstName: name[0], lastName[1]);
 }
 
 function attributesToPhrase() {
